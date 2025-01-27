@@ -476,3 +476,124 @@ button.btn-secondary:hover {
     transform: translateX(5px); 
 }
 
+@media (max-width: 1024px) {
+
+    /* Adjust card layout for smaller screens */
+    .card {
+        width: 45%; /* Two cards per row for tablets */
+        margin: 5px;
+    }
+
+    /* Adjust image size for smaller devices */
+    .card-img-top {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Modal content */
+    .modal-content {
+        padding: 15px;
+        width: 90%; /* Make modal fit better on tablets */
+    }
+
+    /* Adjust text size for mobile and tablet */
+    .card-body h5 {
+        font-size: 1.0em; /* Slightly smaller text */
+    }
+
+    .h5Container {
+        font-size: 1.6rem;
+        padding: 15px;
+    }
+
+    .h3Container {
+        font-size: 26px;
+        padding: 15px;
+    }
+
+    /* Stack cards in one column on smaller screens */
+    .cardsContainer {
+        justify-content: center; /* Center the cards */
+    }
+}
+
+@media (max-width: 768px) {
+
+    /* Full width for cards on mobile */
+    .card {
+        width: 100%; /* Full width for cards */
+        margin: 5px 0;  /* Remove horizontal margin */
+    }
+
+    /* Smaller image sizes */
+    .card-img-top {
+        width: 40px;
+        height: 40px;
+    }
+
+    /* Adjust font sizes for mobile */
+    .card-body h5 {
+        font-size: 1.0em;
+    }
+
+    .modal-content {
+        padding: 15px;
+        width: 90%; /* Ensure modal fits the screen */
+    }
+
+    .h5Container {
+        font-size: 1.5rem;
+        padding: 15px;
+    }
+
+    .h3Container {
+        font-size: 22px;
+        padding: 10px;
+    }
+
+    .titleContainer1, .titleContainer2, .titleContainer3 {
+        font-size: 45px; /* Reduce title font size for mobile */
+    }
+
+    .image-container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .imgContainer {
+        width: 100%;
+        height: auto;
+    }
+
+    .cardsContainer {
+        justify-content: center; /* Center cards on mobile */
+    }
+}
+@media (max-width: 480px) {
+
+    /* Full width for cards on extra small screens */
+    .card {
+        width: 100%; /* Full width for cards */
+        margin: 5px 0;
+    }
+
+    .modal-content {
+        padding: 10px;
+        width: 95%; /* Adjust modal width */
+    }
+
+    .h5Container {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+
+    .h3Container {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .titleContainer1, .titleContainer2, .titleContainer3 {
+        font-size: 40px; /* Smaller title font size */
+    }
+}
+
