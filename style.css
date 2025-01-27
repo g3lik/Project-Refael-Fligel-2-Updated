@@ -476,6 +476,23 @@ button.btn-secondary:hover {
     transform: translateX(5px); 
 }
 
+.selecth1Container{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;  
+    font-weight: bold;  
+    text-align: center;  
+    color: #fff;  
+    background: linear-gradient(90deg, hsl(180, 2%, 97%), #0185b5, rgb(249, 249, 250), rgb(249, 249, 250));  /* Gradient background */
+    padding:  30px;  
+    text-transform: uppercase;  
+    position: relative;
+    overflow: hidden;  
+    z-index: 1;
+    transition: all 0.3s ease;  
+}
+
+
 @media (max-width: 1024px) {
 
     /* Adjust card layout for smaller screens */

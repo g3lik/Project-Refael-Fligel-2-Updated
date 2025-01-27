@@ -39,7 +39,8 @@ $(() => {
     }
   // ---------------------- Display Coins ----------------------
 function displayCoins(coins) {
-    let content = '<div class="cardsContainer">';
+    let content = '<h1 class="selecth1Container">Select Coins</h1>';  
+    content += '<div class="cardsContainer">';
     for (let i = 0; i < coins.length; i++) {
     const coin = coins[i];
     const iconUrl = coin.image;
